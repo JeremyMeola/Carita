@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Carita</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        background: #188;
+        text-align: center;
+        color: #fff;
+        padding: 5px;
+      }
+      div{
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        background: #188;
+        text-align: center;
+        color: #fff;
+      }
+      html{
+        height: 300px;
+        width: 400px;
+      }
+      a{
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      input{
+        min-width:200px;
+        height: 30px;
+        
+        margin-bottom: : 30px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid #333;
+        border-radius: 4px;
+        padding: 15px;
+        background: rgb(94,221,210);
+        box-shadow: rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0px inset;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+  
+      }
+      input.placeholder{
+        color: #fff;
+      }
+      a.button {
+        min-width:200px;
+        height: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: : 30px;
+        border: 1px solid #333;
+        border-radius: 4px;
+        padding: 15px;
+        background: rgb(248,84,21);
+        box-shadow: rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0px inset;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        } 
+        a.button:hover {
+        cursor: pointer;
+        background: rgb(245,48,5);
+        color: #fff;
+        }
+        a:link {
+        text-decoration: none;
+        } 
+        button:hover {
+        cursor: pointer;
+        background: rgb(245,48,5);
+        color: #fff;
+        }
+        input:hover {
+        background: rgb(65,205,194);
+        color: #fff;
+        }
+        a.button:focus, button:active {
+          outline: 0;
+        }
+        button{
+        min-width:200px;
+        height: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: : 30px;
+        border: 1px solid #333;
+        border-radius: 4px;
+        padding: 15px;
+        background: rgb(248,84,21);
+        box-shadow: rgba(255,255,255,0.1) 0 1px 0,rgba(0,0,0,0.8) 0 1px 7px 0px inset;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        }
+
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1> Carita </h1>
+     <form id="args">
+      
+       <a style= "min-width:200px" type = button id = info href="https://www.youtube.com/watch?list=PL7XlqX4npddfrdpMCxBnNZXg2GFll7t5y&v=q6EoRBvdVPQ" class="button"></a>
+      <p>
+       <button type = "button" class="button donate" >Donate!</button>
+       </p>
+       <p>
+       <input id="money" name="donation" placeholder="Amount" class="input"></input>
+       </p>
+       <div id = "nothanks" class="nothanks" >No thanks</div>
+     </form>
+     
+   </body>
+</html>
+
